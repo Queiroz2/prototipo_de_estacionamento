@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'DM Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+:root {
+  --background: #0d1117;
+  --surface: #161b22;
+  --surface-2: #1c2128;
+  --border: #30363d;
+  --primary: #2563eb;
+  --primary-light: #3b82f6;
+  --free: #16a34a;
+  --free-bg: #052e16;
+  --free-border: #166534;
+  --occupied: #d97706;
+  --occupied-bg: #1c1008;
+  --occupied-border: #92400e;
+  --text: #e6edf3;
+  --text-muted: #7d8590;
+  --shift-morning: #f59e0b;
+  --shift-afternoon: #3b82f6;
+  --shift-night: #8b5cf6;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-body);
+}
